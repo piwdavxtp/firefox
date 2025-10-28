@@ -51,7 +51,16 @@
             "LinkPreviews": false,
             "TabGroups": false,
             "Locked": true
-        }
+        },
+
+        "UserMessaging": {
+            "ExtensionRecommendations": false,
+            "FeatureRecommendations": false,
+            "UrlbarInterventions": false,
+            "MoreFromMozilla": false,
+            "FirefoxLabs": false,
+            "Locked": true
+    }
         
             
     }
