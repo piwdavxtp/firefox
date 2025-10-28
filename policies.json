@@ -57,6 +57,7 @@
             "ExtensionRecommendations": false,
             "FeatureRecommendations": false,
             "UrlbarInterventions": false,
+            "SkipOnboarding": true,
             "MoreFromMozilla": false,
             "FirefoxLabs": false,
             "Locked": true
