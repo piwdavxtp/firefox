@@ -1,0 +1,58 @@
+{
+    "policies": {
+        "DisableTelemetry": true,
+        "DisableFirefoxStudies": true,
+        "DisableFirefoxAccounts": true,
+        "DisableFeedbackCommands": true,
+        "DisablePocket": true,
+        "NoDefaultBookmarks": true, 
+
+        "Extensions": {
+            "Uninstall": [
+                "google@search.mozilla.org",
+                "bing@search.mozilla.org",
+                "amazondotcom@search.mozilla.org",
+                "ebay@search.mozilla.org",
+                "twitter@search.mozilla.org"
+            ]
+        },
+
+        "SearchEngines": {
+            "PreventInstalls": false,
+            "Remove": [
+                "Google",
+                "Bing",
+                "Perplexity"
+            ],
+            "Default": "DuckDuckGo"
+        },
+
+        "FirefoxHome": {
+            "Search": true,
+            "TopSites": false,
+            "SponsoredTopSites": false,
+            "Highlights": false,
+            "Pocket": false,
+            "Stories": false,
+            "SponsoredPocket": false,
+            "SponsoredStories": false,
+            "Snippets": false,
+            "Locked": true 
+        },
+        
+        "Permissions": {
+            "Autoplay": {
+            "Default": "block-audio-video"
+            }
+        },
+
+        "GenerativeAI": {
+            "Chatbot": false,
+            "LinkPreviews": false,
+            "TabGroups": false,
+            "Locked": true
+        }
+        
+            
+    }
+}
