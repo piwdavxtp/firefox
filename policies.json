@@ -61,7 +61,14 @@
             "MoreFromMozilla": false,
             "FirefoxLabs": false,
             "Locked": true
-    }
+	},
+	
+	"FirefoxSuggest": {
+	   "WebSuggestions": false,
+            "SponsoredSuggestions": false,
+      	   "ImproveSuggest": false,
+            "Locked": true
+	}
         
             
     }
