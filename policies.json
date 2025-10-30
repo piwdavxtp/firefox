@@ -28,7 +28,7 @@
         },
 
         "FirefoxHome": {
-            "Search": true,
+            "Search": false,
             "TopSites": false,
             "SponsoredTopSites": false,
             "Highlights": false,
